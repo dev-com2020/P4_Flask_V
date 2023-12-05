@@ -17,5 +17,5 @@ def drukuj_rabat():
         print(customer['id'], " | ", customer['total'], " | ", customer['discount'])
 
 
-def calculate_vat(price, vat):
+def calculate_vat(price, vat=2):
     return price * (100 + vat) / 100
